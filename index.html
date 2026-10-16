@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- Viewport meta tag: required for mobile responsiveness -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of Lie Cezar DC. Flores, BSIT student and athlete at Bulacan State University">
+  <title>Lie Cezar DC. Flores | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 1. HEADER / NAVIGATION -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="brand">Lie Cezar DC. Flores</a>
+
+      <!-- Hamburger button (visible on mobile only) -->
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navMenu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav aria-label="Main navigation">
+        <ul class="nav-list" id="navMenu">
+          <li><a href="#home">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li>
+            <!-- Dark/light mode toggle -->
+            <button class="theme-toggle" id="themeToggle" aria-label="Switch to dark mode">Dark mode</button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- 2. HERO / ABOUT ME -->
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Hi, I'm Lie Cezar DC. Flores.</h1>
+          <p class="lead">BSIT student and athlete at Bulacan State University, building a career in hardware and IT infrastructure.</p>
+          <p>I'm a BSIT 3FG1 student at Bulacan State University. I'm most interested in the physical side of technology: computer hardware, networks, and the systems that keep everything running. Being a student-athlete has taught me discipline, teamwork, and how to stay focused under pressure, and I bring that same drive to my IT work.</p>
+          <a href="#projects" class="btn">See my projects</a>
+        </div>
+        <img src="images/profile.svg" alt="Portrait of Lie Cezar DC. Flores" class="profile-photo" width="320" height="320">
+      </div>
+    </section>
+
+    <!-- 3. PROJECTS -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Home Network Layout</h3>
+            <p>A planned network diagram showing the router, switch, access point, and device connections for a small home setup.</p>
+            <p class="tags">Networking, Cisco Packet Tracer</p>
+            <a href="#" class="card-link">View project</a>
+          </article>
+
+          <article class="card">
+            <h3>PC Hardware Build Guide</h3>
+            <p>A step-by-step guide to choosing and assembling PC components, covering compatibility, cable management, and testing.</p>
+            <p class="tags">Hardware, Troubleshooting</p>
+            <a href="#" class="card-link">View project</a>
+          </article>
+
+          <article class="card">
+            <h3>Personal Portfolio Website</h3>
+            <p>This responsive site, built from scratch with HTML, CSS, and JavaScript and published on GitHub Pages.</p>
+            <p class="tags">HTML, CSS, JavaScript</p>
+            <a href="https://github.com/liecezarflores" target="_blank" rel="noopener" class="card-link">View project</a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 4. FOOTER / CONTACT -->
+  <footer id="contact" class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <h2>Contact</h2>
+        <p>Open to internships and collaborations in hardware and infrastructure.</p>
+      </div>
+      <ul class="contact-list">
+        <li><a href="mailto:liecezarflores@gmail.com">liecezarflores@gmail.com</a></li>
+        <li><a href="https://github.com/liecezarflores" target="_blank" rel="noopener">github.com/liecezarflores</a></li>
+        <li><a href="https://www.facebook.com/Lie-Cezar-DC-Flores" target="_blank" rel="noopener">facebook.com/Lie-Cezar-DC-Flores</a></li>
+      </ul>
+    </div>
+    <p class="copyright">&copy; 2026 Lie Cezar DC. Flores</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
